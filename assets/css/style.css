@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Abel');
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  padding-top: 3.5rem;
+  background-color: #f7f7f7;
+  font-family: 'Abel', sans-serif;
+  margin-bottom: 60px;
+}
+
+.navbar {
+  margin-bottom: 0;
+}
+
+.navbar img {
+  max-height: 40px;
+}
+
+.bg-dark {
+  background-color: #0F1B62!important;
+}
+
+.jumbotron {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  margin-bottom: 0;
+  background-color: #fff;
+}
+
+.jumbotron p:last-child {
+  margin-bottom: 0;
+}
+
+.jumbotron-heading {
+  font-weight: 300;
+}
+
+.jumbotron .container {
+  max-width: 40rem;
+}
+
+.album {
+  min-height: 100%; /* Can be removed; just added for demo purposes */
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  background-color: #f7f7f7;
+}
+
+.card {
+  float: left;
+  width: 33.333%;
+  padding: .75rem;
+  margin-bottom: 2rem;
+  border: 0;
+}
+
+.card > img {
+  margin-bottom: .75rem;
+}
+
+.card-text {
+  font-size: 100%;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: #0F1B62;
+}
+
+footer p {
+  margin-bottom: 0;
+  color: #fff;
+}
+
+footer a {
+  color: #fff;
+}
